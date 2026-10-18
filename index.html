@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1120">
+  <meta name="description" content="Ponlawat Sanjan's portfolio: markets, quantitative research, code and automation.">
+  <title>Ponlawat Sanjan — Portfolio</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="brand" href="#home" aria-label="Ponlawat Sanjan home"><span class="brand-symbol">p<span>.</span></span><span>ponlawat<span class="accent">.portfolio</span></span></a>
+    <nav aria-label="Main navigation"><a class="nav-active" href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <a class="button header-github" href="https://github.com/ponlawatsanjan" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main" class="wrap">
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="little-square"></span> RESEARCH · ENGINEERING · AUTOMATION</div>
+        <h1 id="hero-title">Ponlawat<br><span class="hero-accent">Sanjan.</span></h1>
+        <p>I explore financial markets and turn ideas into useful tools with Python, data, and AI.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="focus-note"><span class="eyebrow">WHAT DRIVES MY WORK</span><p>Understand the system.<br>Build something useful.</p><span class="focus-caption">Markets meet engineering.</span></div>
+    </section>
+    <section id="projects" class="project-section" aria-labelledby="projects-title">
+      <div class="section-heading"><div><div class="eyebrow">SELECTED WORK</div><h2 id="projects-title">Projects<span class="accent">.</span></h2></div><a class="text-link all-repos" href="https://github.com/ponlawatsanjan?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories ↗</a></div>
+      <div class="search-bar"><span class="search-icon" aria-hidden="true"></span><label class="sr-only" for="search">Search projects</label><input id="search" type="search" placeholder="Find a project or technology…" autocomplete="off"><span class="search-hint" aria-hidden="true">/</span></div>
+      <div class="filter-row"><div id="filters" class="filters" aria-label="Filter projects"><button class="filter selected" data-filter="all" aria-pressed="true">All projects</button><button class="filter" data-filter="research" aria-pressed="false">Research</button><button class="filter" data-filter="engineering" aria-pressed="false">Engineering</button><button class="filter" data-filter="automation" aria-pressed="false">Automation</button></div></div>
+      <div class="directory-layout">
+        <div class="directory-main"><div class="directory-head"><span>PROJECT / DESCRIPTION</span><span>STACK</span><span>EXPLORE</span></div><div id="project-list"></div><div id="empty-state" class="empty-state" hidden><strong>No projects found.</strong><p>Try another keyword or clear your filters.</p><button id="reset" class="button">Clear filters ↺</button></div><div class="directory-footer"><span id="result-count" role="status" aria-live="polite"></span><span>Built with curiosity <span class="accent">✳</span></span></div><p class="preview-note">Design preview: draft entries show the proposed layout. Project details and website links can be added before publishing.</p></div>
+      </div>
+    </section>
+    <section id="about" class="about" aria-labelledby="about-title"><div><div class="eyebrow">ABOUT ME</div><h2 id="about-title">Curious by nature.<br>Practical by design<span class="accent">.</span></h2></div><div class="about-copy"><p>I like understanding how systems behave, finding where a process can be improved, and turning those observations into useful tools.</p><p>My interests bring together quantitative research, financial markets, software, and AI-assisted automation. This portfolio is where I share what I’m exploring and building.</p><a class="text-link" href="https://github.com/ponlawatsanjan" target="_blank" rel="noopener noreferrer">Follow the work on GitHub ↗</a></div></section>
+    <section id="contact" class="contact" aria-labelledby="contact-title"><div><div class="eyebrow">LET'S CONNECT</div><h2 id="contact-title">Have an interesting idea<span>?</span></h2><p>Let’s talk about markets, tools, research, or something worth building.</p></div><a class="button primary" href="https://github.com/ponlawatsanjan" target="_blank" rel="noopener noreferrer">Find me on GitHub ↗</a></section>
+  </main>
+  <footer class="wrap footer"><a class="footer-brand" href="#home">ponlawat<span class="accent">.portfolio</span></a><span>© <span id="year"></span> Ponlawat Sanjan</span><a href="#home">Back to top ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">PROJECT NOTES</span><button id="close-dialog" class="close-dialog" aria-label="Close project details">×</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>
