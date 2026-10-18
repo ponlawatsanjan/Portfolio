@@ -8,6 +8,8 @@ From this folder, run `npm run dev`, then open http://127.0.0.1:5173. Node.js is
 
 ## Files
 
+See [Profile and project structure](PROFILE_AND_PROJECTS.md) for how the portfolio, GitHub profile and research website connect.
+
 - `index.html`: introduction, project directory, about, and contact sections.
 - `style.css`: responsive layout and theme.
 - `app.js`: project data, live search, category filters, and project details.
